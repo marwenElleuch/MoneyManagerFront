@@ -7,6 +7,7 @@ import { routes } from './app.routes';
 import { DepencesModule } from './components/depences/depences.module';
 import { SalairesModule } from './components/salaires/salaires.module';
 import { ChargesModule } from './components/charges/charges.module';
+import { TemplateModule } from './template/template.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ChargesModule } from './components/charges/charges.module';
     DepencesModule,
     SalairesModule,
     ChargesModule,
+    TemplateModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
