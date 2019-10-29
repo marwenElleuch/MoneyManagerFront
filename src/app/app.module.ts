@@ -8,11 +8,13 @@ import { DepencesModule } from './components/depences/depences.module';
 import { SalairesModule } from './components/salaires/salaires.module';
 import { ChargesModule } from './components/charges/charges.module';
 import { TemplateModule } from './template/template.module';
+import { DashbordTemplateComponent } from './dashbord-template/dashbord-template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashbordComponent,
+    DashbordTemplateComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,590 @@
+<app-header></app-header>
+
+<app-menu></app-menu>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+
+    <!-- Main content -->
+    <section class="content">
+
+        <div class="box">
+            <div class="box-header no-border">
+                <h4>All Tickets : Last 7 Days</h4>
+            </div>
+            <div class="box-body pt-0">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                        <div class="flexbox">
+                            <h2><span class="countnm">360</span> <span class="text-fade font-size-18">Customers</span>
+                            </h2>
+                            <h2 class="text-purple"><i class="fa fa-arrow-circle-o-up"></i> 7%</h2>
+                        </div>
+                        <div class="flexbox">
+                            <h2><span class="countnm">324</span> <span class="text-fade font-size-18">Replies
+                                    Sent</span></h2>
+                            <h2 class="text-success"><i class="fa fa-arrow-circle-o-up"></i> 7%</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-xs-12">
+                        <div id="e_chart_1" class="echart" style="height: 150px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-lg-2">
+                <div class="box box-body text-center pull-up box-inverse box-info">
+                    <h6 class="text-fade">Avg. Reply Time</h6>
+                    <h1 class="mb-0">24<span class="font-size-12">m</span> 13<span class="font-size-12">s</span>
+                    </h1>
+                    <h2 class="mt-0"><span class="text-white-80"><i class="fa fa-arrow-circle-o-down"></i>
+                            9%</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <div class="box box-body text-center pull-up box-inverse box-primary">
+                    <h6 class="text-fade">Avg. First Reply Time</h6>
+                    <h1 class="mb-0">20<span class="font-size-12">m</span> 29<span class="font-size-12">s</span>
+                    </h1>
+                    <h2 class="mt-0"><span class="text-white-80"><i class="fa fa-arrow-circle-o-down"></i>
+                            6%</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <div class="box box-body text-center pull-up box-inverse box-danger">
+                    <h6 class="text-fade">Avg. Handle Time</h6>
+                    <h1 class="mb-0">1<span class="font-size-12">h</span> 58<span class="font-size-12">m</span>
+                    </h1>
+                    <h2 class="mt-0"><span class="text-white-80"><i class="fa fa-arrow-circle-o-up"></i>
+                            4%</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <div class="box box-body text-center pull-up box-inverse box-dark">
+                    <h6 class="text-fade">Replies / Ticket</h6>
+                    <h1 class="mb-0">1.6<span class="font-size-12">t</span></h1>
+                    <h2 class="mt-0"><span class="text-white-80"><i class="fa fa-arrow-circle-o-down"></i>
+                            9%</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <div class="box box-body text-center pull-up box-inverse box-success">
+                    <h6 class="text-fade">Total Ratings</h6>
+                    <h1 class="mb-0">45<span class="font-size-12">r</span></h1>
+                    <h2 class="mt-0"><span class="text-white-80"><i class="fa fa-arrow-circle-o-down"></i>
+                            14%</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <div class="box box-body text-center pull-up box-inverse box-warning">
+                    <h6 class="text-fade">Awesome Replies</h6>
+                    <h1 class="mb-0">28<span class="font-size-12">r</span></h1>
+                    <h2 class="mt-0"><span class="text-white-80"><i class="fa fa-arrow-circle-o-up"></i>
+                            28%</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="box box-solid bg-gray">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">Tickets by tag</h4>
+                        <div class="box-tools pull-right">
+                            <ul class="card-controls">
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" href="#" class="text-white"><i class="fa fa-cog"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item active" href="#">Today</a>
+                                        <a class="dropdown-item" href="#">Yesterday</a>
+                                        <a class="dropdown-item" href="#">Last week</a>
+                                        <a class="dropdown-item" href="#">Last month</a>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="link card-btn-reload text-white" data-toggle="tooltip" title=""
+                                        data-original-title="Refresh"><i class="fa fa-circle-thin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box-body">
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Billing</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">7</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                    <span class="sr-only">20% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Bug</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">11</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                    <span class="sr-only">50% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Feature Request</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">18</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Cancellation</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">10</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    <span class="sr-only">40% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Upgrade</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">5</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                                    <span class="sr-only">25% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Usabillty</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">14</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                                    <span class="sr-only">55% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Update Account details</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">3</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                                    <span class="sr-only">10% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Integration request</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">8</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                    <span class="sr-only">75% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flexbox">
+                                <div>
+                                    <p>Access denied</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">5</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                                    <span class="sr-only">10% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pb-10">
+                            <div class="flexbox">
+                                <div>
+                                    <p>Change plan</p>
+                                </div>
+                                <div>
+                                    <span class="badge badge-pill badge-info">9</span>
+                                </div>
+                            </div>
+                            <div class="progress progress-xxs mb-10">
+                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                    aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%">
+                                    <span class="sr-only">66% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <!-- AREA CHART -->
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">Ticket Overview</h4>
+                    </div>
+                    <div class="box-body p-0">
+                        <ul class="list-inline text-right mt-10 mr-10">
+                            <li>
+                                <p class="mb-0"><i class="fa fa-circle mr-5 text-secondary"></i>Total</p>
+                            </li>
+                            <li>
+                                <p class="mb-0"><i class="fa fa-circle mr-5 text-danger"></i>Close</p>
+                            </li>
+                            <li>
+                                <p class="mb-0"><i class="fa fa-circle mr-5 text-success"></i>Open</p>
+                            </li>
+                        </ul>
+                        <div id="e_chart_2" style="height: 230px;"></div>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">Every Hour Tickets</h4>
+                        <div class="box-tools pull-right">
+                            <ul class="card-controls">
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" href="#"><i class="fa fa-cog"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item active" href="#">Today</a>
+                                        <a class="dropdown-item" href="#">Yesterday</a>
+                                        <a class="dropdown-item" href="#">Last week</a>
+                                        <a class="dropdown-item" href="#">Last month</a>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="link card-btn-reload" data-toggle="tooltip" title=""
+                                        data-original-title="Refresh"><i class="fa fa-circle-thin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box-body">
+                        <div class="flexbox">
+                            <div>
+                                <span class="font-size-50 fa fa-ticket text-danger"></span>
+                                <h2 class="countnm mb-5">1547</h2>
+                            </div>
+                            <div id="barchart4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="box box-solid bg-gray">
+                    <div class="box-header with-border">
+                        <h4 class="box-title">Top ticket solvers</h4>
+                    </div>
+                    <div class="box-body p-0">
+                        <div class="media-list media-list-hover media-list-divided">
+                            <a class="media media-single" href="#">
+                                <span class="title">Tom</span>
+                                <span class="badge badge-pill badge-secondary">125</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Pate</span>
+                                <span class="badge badge-pill badge-primary">124</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Paton</span>
+                                <span class="badge badge-pill badge-info">425</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Layen</span>
+                                <span class="badge badge-pill badge-success">321</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Mical</span>
+                                <span class="badge badge-pill badge-danger">159</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Aena</span>
+                                <span class="badge badge-pill badge-warning">452</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Jack</span>
+                                <span class="badge badge-pill badge-secondary">125</span>
+                            </a>
+
+                            <a class="media media-single" href="#">
+                                <span class="title">Clark</span>
+                                <span class="badge badge-pill badge-primary">124</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<footer class="main-footer">
+    <div class="pull-right d-none d-sm-inline-block">
+        <ul class="nav nav-primary nav-dotted nav-dot-separated justify-content-center justify-content-md-end">
+            <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Purchase Now</a>
+            </li>
+        </ul>
+    </div>
+    &copy; 2018 <a href="https://www.multipurposethemes.com/">Multi-Purpose Themes</a>. All Rights Reserved.
+</footer>
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-light">
+    <!-- Create the tabs -->
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+        <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab" class="active"><i
+                    class="fa fa-home"></i></a></li>
+        <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab"><i
+                    class="fa fa-cog fa-spin"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- Home tab content -->
+        <div class="tab-pane active" id="control-sidebar-home-tab">
+            <h3 class="control-sidebar-heading">Recent Activity</h3>
+            <ul class="control-sidebar-menu">
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-birthday-cake bg-danger"></i>
+
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Admin Birthday</h4>
+
+                            <p>Will be July 24th</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-user bg-warning"></i>
+
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Jhone Updated His Profile</h4>
+
+                            <p>New Email : jhone_doe@demo.com</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-envelope-o bg-info"></i>
+
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Disha Joined Mailing List</h4>
+
+                            <p>disha@demo.com</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-file-code-o bg-success"></i>
+
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Code Change</h4>
+
+                            <p>Execution time 15 Days</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.control-sidebar-menu -->
+
+            <h3 class="control-sidebar-heading">Tasks Progress</h3>
+            <ul class="control-sidebar-menu">
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Web Design
+                            <span class="label label-danger pull-right">40%</span>
+                        </h4>
+
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-danger" style="width: 40%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Update Data
+                            <span class="label label-success pull-right">75%</span>
+                        </h4>
+
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-success" style="width: 75%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Order Process
+                            <span class="label label-warning pull-right">89%</span>
+                        </h4>
+
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-warning" style="width: 89%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Development
+                            <span class="label label-primary pull-right">72%</span>
+                        </h4>
+
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-primary" style="width: 72%"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.control-sidebar-menu -->
+
+        </div>
+        <!-- /.tab-pane -->
+        <!-- Stats tab content -->
+        <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+        <!-- /.tab-pane -->
+        <!-- Settings tab content -->
+        <div class="tab-pane" id="control-sidebar-settings-tab">
+            <form method="post">
+                <h3 class="control-sidebar-heading">General Settings</h3>
+
+                <div class="form-group">
+                    <input type="checkbox" id="report_panel" class="chk-col-grey">
+                    <label for="report_panel" class="control-sidebar-subheading ">Report panel usage</label>
+
+                    <p>
+                        general settings information
+                    </p>
+                </div>
+                <!-- /.form-group -->
+
+                <div class="form-group">
+                    <input type="checkbox" id="allow_mail" class="chk-col-grey">
+                    <label for="allow_mail" class="control-sidebar-subheading ">Mail redirect</label>
+
+                    <p>
+                        Other sets of options are available
+                    </p>
+                </div>
+                <!-- /.form-group -->
+
+                <div class="form-group">
+                    <input type="checkbox" id="expose_author" class="chk-col-grey">
+                    <label for="expose_author" class="control-sidebar-subheading ">Expose author name</label>
+
+                    <p>
+                        Allow the user to show his name in blog posts
+                    </p>
+                </div>
+                <!-- /.form-group -->
+
+                <h3 class="control-sidebar-heading">Chat Settings</h3>
+
+                <div class="form-group">
+                    <input type="checkbox" id="show_me_online" class="chk-col-grey">
+                    <label for="show_me_online" class="control-sidebar-subheading ">Show me as online</label>
+                </div>
+                <!-- /.form-group -->
+
+                <div class="form-group">
+                    <input type="checkbox" id="off_notifications" class="chk-col-grey">
+                    <label for="off_notifications" class="control-sidebar-subheading ">Turn off
+                        notifications</label>
+                </div>
+                <!-- /.form-group -->
+
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        <a href="javascript:void(0)" class="text-red margin-r-5"><i class="fa fa-trash-o"></i></a>
+                        Delete chat history
+                    </label>
+                </div>
+                <!-- /.form-group -->
+            </form>
+        </div>
+        <!-- /.tab-pane -->
+    </div>
+</aside>
+<!-- /.control-sidebar -->
+
+<!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+<div class="control-sidebar-bg"></div>
+
+
+<!-- ./wrapper -->
